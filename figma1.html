@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            width:100%;
+            display:flex;
+            
+        }
+        .cont>div{
+            width:50%;
+        }
+       .cardright{
+        border:2px solid black;
+        background-color:  #000842;;
+        border-radius: 15px;
+       }
+       .cardright >div{
+           display:flex;
+           justify-content: center;
+           align-items: center;
+       }
+       .cardright>div img{
+        width:70%;
+       }
+       .cardleft{
+        
+        margin:105px 105px 105px 150px;
+       }
+       #p{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+color: #999999;
+
+       }
+       .cardleft h6{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+color: #4D4D4D;
+display:flex;
+justify-content: end;
+    }
+    .cardleft button{
+        width: 100%;
+height: 53px;
+color:white;
+background: #0C21C1;
+box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+border-radius: 32px;
+    }
+    #end{
+    display:flex;
+    justify-content: center;
+    color: #4D4D4D;
+   }
+   .cardleft >div {
+    display:flex;
+    justify-content: center;
+   }
+   .cardleft>div img{
+    margin-left: 13px;
+   }
+   .cardleft input{
+    width:98%;
+   }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="cardleft" >
+            <h2>Sign in</h2>
+            <p>if you don't have an account register </p>
+            <p>you can <a href="#"> register here ></a></p>
+             <p id ="p">Email</p>
+             <input type="email" placeholder="Enter your email">
+             <p id = "p">Password</p>
+             <input type="password" placeholder="enter your password">
+             <h6>forgot password ?</h6>
+             <button>Login</button>
+             <p id="end">or continue with</p>
+             <div >
+                <img src="./bg.svg" alt="">
+                <img src="./bg.svg" alt="">
+                <img src="./bg.svg" alt="">
+             </div>
+        </div>
+       <div class="cardright">
+        <div>
+        <img src="./Saly-10.svg" alt="">
+        </div>
+       </div>
+    </div>
+</body>
+</html>
